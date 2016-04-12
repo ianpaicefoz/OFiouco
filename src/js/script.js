@@ -173,6 +173,10 @@ function parseXmlMET(xml)
 			if(descripcion == "Cubierto con lluvia escasa")
 			{
 				descripcion = "<img src='images/tiempo/cubierto_con_lluvia_escasa.png' width='25'>";
+			}
+			if(descripcion == "Intervalos nubosos con lluvia escasa")
+			{
+				descripcion = "<img src='images/tiempo/Intervalos_nubosos_con_lluvia_escasa.png' width='25'>";
 			}				
 			//$("#meteo").append(periodo+":"+$(this).text()+"/"+descripcion);
 			$("#meteo").append("<div style='float:left;width:14%;background:#D8D8D8;'>"+periodo+"<br>"+descripcion+"</div>");

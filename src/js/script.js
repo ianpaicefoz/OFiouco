@@ -4,7 +4,8 @@ var isOverlap = true; //true: overlap, false: split
 var isTest = false;
 
 document.addEventListener("deviceready", function(){
-	window.admob.showBannerAd('bottom-center', 'SMART_BANNER');
+	alert("ola!");
+	/*window.admob.showBannerAd('bottom-center', 'SMART_BANNER');*/
 }, false);
 
 

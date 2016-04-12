@@ -4,33 +4,7 @@ var isOverlap = true; //true: overlap, false: split
 var isTest = false;
 
 document.addEventListener("deviceready", function(){
-	window.admob.setUp(bannerAdUnit, interstitialAdUnit, isOverlap, isTest);
-	//
-	window.admob.onBannerAdPreloaded = function() {
-		/*alert('onBannerAdPreloaded');*/
-	};
-	window.admob.onBannerAdLoaded = function() {
-		/*alert('onBannerAdLoaded');*/
-	};
-	window.admob.onBannerAdShown = function() {
-		/*alert('onBannerAdShown');*/
-	};
-	window.admob.onBannerAdHidden = function() {
-		/*alert('onBannerAdHidden');*/
-	};	
-	//
-	window.admob.onInterstitialAdPreloaded = function() {
-		alert('onInterstitialAdPreloaded');
-	};
-	window.admob.onInterstitialAdLoaded = function() {
-		alert('onInterstitialAdLoaded');
-	};
-	window.admob.onInterstitialAdShown = function() {
-		alert('onInterstitialAdShown');
-	};
-	window.admob.onInterstitialAdHidden = function() {
-		alert('onInterstitialAdHidden');
-	};
+	window.admob.showBannerAd('bottom-center', 'SMART_BANNER');
 }, false);
 
 
@@ -38,10 +12,7 @@ $(document).ready( function() {
 	$.support.cors                 = true;
     $.mobile.allowCrossDomainPages = true;
     $.mobile.pushStateEnabled      = false;
-	
-	window.admob.showBannerAd('bottom-center', 'SMART_BANNER');
-	
-	
+		
 	$.ajax({
 		type: "GET",
 		url: "http://92.222.33.109/ofiouco/incidencias.xml",
@@ -61,8 +32,6 @@ $(document).ready( function() {
       direction: 'horizontal',
       loop: true
     }) 
-	
-	window.admob.showBannerAd('bottom-center', 'SMART_BANNER');
 
 });
 

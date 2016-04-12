@@ -1,0 +1,56 @@
+*{
+
+}
+h2{
+	color:white;
+}
+a{
+	text-decoration:none;
+	color: blue;
+}
+#texto{
+	color:white;
+}
+#page1{
+    background-image: url("../../images/blue.jpg");
+}
+#info_arbr{
+	border-radius: 10px;
+	border:inset;
+	background-color: white;
+	width:50%;
+	font-size:10px;
+	margin-left:25%;
+	margin-top:15%;
+}
+
+#incidencias{
+	border-radius: 12px;
+	border:inset;
+	background-color: white;
+	width:80%;
+	font-size:12px;
+	margin-left:10%;
+	margin-top:5%;
+}
+
+#meteo{
+	border-radius: 12px;
+	border:inset;
+	background-color: white;
+	width:80%;
+	font-size:12px;
+	margin-left:10%;
+	margin-top:5%;
+}
+
+#radar{
+	border-radius: 12px;
+	border:inset;
+	background-color: white;
+	width:80%;
+	font-size:12px;
+	margin-left:10%;
+	margin-top:5%;
+	text-align:left;
+}

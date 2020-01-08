@@ -45,14 +45,14 @@ $(document).ready( function() {
 		
 	$.ajax({
 		type: "GET",
-		url: "http://92.222.33.109/ofiouco/incidencias.xml",
+		url: "http://ofiouco.ccradio.es/ofiouco/incidencias.xml",
 		dataType: "xml",
 		success: parseXmlINC
 	});
 	
 	$.ajax({
 		type: "GET",
-		url: "http://92.222.33.109/ofiouco/localidad_27030.xml",
+		url: "http://ofiouco.ccradio.es/ofiouco/localidad_27030.xml",
 		dataType: "xml",
 		success: parseXmlMET
 	});

@@ -61,10 +61,12 @@
     <!--<gap:plugin name="org.apache.cordova.file-transfer" />-->
     <!--<gap:plugin name="org.apache.cordova.geolocation" />-->
     <!--<gap:plugin name="org.apache.cordova.globalization" />-->
-    <gap:plugin name="org.apache.cordova.inappbrowser" source="npm"  spec="~1.3.0"  />
+    <!--<gap:plugin name="org.apache.cordova.inappbrowser" source="npm"  spec="~1.3.0"  />-->
+	 <plugin name="cordova-plugin-inappbrowser" source="npm" spec="~1.3.0" />
     <!--<gap:plugin name="org.apache.cordova.media" />-->
     <!--<gap:plugin name="org.apache.cordova.network-information" />-->
-    <gap:plugin name="org.apache.cordova.splashscreen" source="npm"  spec="~3.2.1" />
+    <!--<gap:plugin name="org.apache.cordova.splashscreen" source="npm"  spec="~3.2.1" />-->
+	<plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1" />
     <!--<gap:plugin name="org.apache.cordova.vibration" />-->
 	<!--Publicidad con ADMOB-->
 	<!--<gap:plugin name="admob" version="5.4.2" source="npm"/>-->

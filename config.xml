@@ -21,6 +21,9 @@
         following tag to your config.xml; you will still have the INTERNET
         permission on your app, which PhoneGap requires.
     -->
+	<plugin spec="https://github.com/dpa99c/cordova-android-support-gradle-release" source="git" >
+    <variable name="ANDROID_SUPPORT_VERSION" value="28.0.0"/> </plugin>
+	
     <preference name="permissions"                value="none"/>
 
     <!-- Customize your app and platform with the preference element. -->

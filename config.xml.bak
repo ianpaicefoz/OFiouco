@@ -73,8 +73,8 @@
 	<!--Publicidad con ADMOB-->
 	<!--<gap:plugin name="admob" version="5.4.2" source="npm"/>-->
 	<!--<gap:plugin name="cordova-plugin-admobpro" source="npm" />-->
-	<!--<gap:plugin name="cordova-plugin-ad-admob" source="npm" />-->
-	<gap:plugin name="cordova-plugin-admobpro" source="npm" />
+	<gap:plugin name="cordova-plugin-ad-admob" source="npm" />
+	
 	
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->

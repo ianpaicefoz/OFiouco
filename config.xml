@@ -49,7 +49,7 @@
 	<!--<gap:plugin name="admob" version="5.4.2" source="npm"/>-->
 	<!--<gap:plugin name="cordova-plugin-admobpro" source="npm" />-->
 	<!--<gap:plugin name="cordova-plugin-ad-admob" source="npm" />-->
-	<gap:plugin name="cordova-plugin-admobpro" source="npm" />
+	<gap:plugin name="phonegap-admob" source="npm" />
     <!-- Define app icon for each platform. -->
 	<platform name="android">
     <icon src="images/iconoFiouco.png" />
